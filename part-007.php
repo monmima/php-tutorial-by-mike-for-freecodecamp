@@ -6,6 +6,8 @@
     <title>PHP Tutorial</title>
 </head>
 <body>
+    <!-- DATA TYPES -->
+
     <?php
         $string = "To be or not to be";
 

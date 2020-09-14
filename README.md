@@ -38,6 +38,30 @@ Now at 47 minutes in the tutorial.
 28. (3:36:51) Include: PHP
 29. (3:45:57) Classes & Objects
 30. (3:56:23) Constructors
-31. (4:06:18) Object Functions - PHP - Tutorial 31
+31. (4:06:18) Object Functions - PHP - Tutorial
 32. (4:13:52) Getters & Setters
 33. (4:29:17) Inheritance
+
+## Running this project
+
+To start XAMPP in Linux Mint from the console, type "sudo /opt/lampp/manager-linux-x64.run".
+
+<p>To run the main index.php page, start Xampp and then type "localhost/php-tutorial-by-mike-for-freecodecamp" in the adress bar of your browser.</p>
+
+## Linux Mint and VS Code
+
+If you're using VS Code on Linux Mint, you might get this message:
+
+- Cannot validate since no PHP executable is set. Use the setting 'php.validate.executablePath' to configure the PHP executable.
+
+This means you won't get the squiggly red lines when something is typed wrong in your code. To solve this:
+
+1. Open the terminal
+2. Type "whereis php"
+3. Copy the path. In my case, it's "/opt/lampp/bin/php"
+4. Click on the cogwheel icon at the bottom left of you VS Code window
+5. In the contextual menu that popped up, click on "settings" (which is the content of the settings.json file)
+6. Under "PHP › Validate: Executable Path", paste you path.
+7. For more information, [stackoverflow](https://stackoverflow.com/questions/43768614/how-to-set-php-executable-path-php-validate-executablepath-in-vscode-when-php-is) might come in handy.
+
+You can make sure everything is working fine by writing random characters in your code **and then saving**. If you get the red squilly lines, this is working.
