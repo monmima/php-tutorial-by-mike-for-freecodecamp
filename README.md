@@ -4,7 +4,7 @@ A tutorial about PHP created by Mike Dane for freeCodeCamp
 
 Thanks to Mike Dane and freeCodeCamp for releasing this video and [uploading it to YouTube](https://www.youtube.com/watch?v=OK_JCtrrv-c).
 
-Now at 47 minutes in the tutorial.
+Now at 2:12:14 in the tutorial.
 
 ## Index
 
